@@ -17,7 +17,7 @@ struct ContentView: View {
 
         TabView(selection: $selectedTab) {
 
-            // MARK: - Home Dashboard
+            // MARK: - Home
 
             NavigationStack {
 
@@ -37,6 +37,7 @@ struct ContentView: View {
                 )
             }
             .tabItem {
+
                 Label(
                     "Home",
                     systemImage: "house.fill"
@@ -44,13 +45,14 @@ struct ContentView: View {
             }
             .tag(HomeTab.home)
 
-            // MARK: - Smart Pantry
+            // MARK: - Pantry
 
             NavigationStack {
 
                 PantryView()
             }
             .tabItem {
+
                 Label(
                     "Pantry",
                     systemImage: "shippingbox.fill"
@@ -58,7 +60,7 @@ struct ContentView: View {
             }
             .tag(HomeTab.pantry)
 
-            // MARK: - Grocery List and Store Finder
+            // MARK: - Grocery and MapKit
 
             NavigationStack {
 
@@ -84,6 +86,7 @@ struct ContentView: View {
                     }
             }
             .tabItem {
+
                 Label(
                     "Grocery",
                     systemImage: "cart.fill"
@@ -105,6 +108,7 @@ struct ContentView: View {
                 )
             }
             .tabItem {
+
                 Label(
                     "Rescue",
                     systemImage: "leaf.fill"
@@ -117,8 +121,28 @@ struct ContentView: View {
             NavigationStack {
 
                 MealPlannerView()
+                    .toolbar {
+
+                        ToolbarItem(
+                            placement: .topBarLeading
+                        ) {
+
+                            NavigationLink {
+
+                                KitchenShareView()
+
+                            } label: {
+
+                                Label(
+                                    "Send to TV",
+                                    systemImage: "tv"
+                                )
+                            }
+                        }
+                    }
             }
             .tabItem {
+
                 Label(
                     "Planner",
                     systemImage: "calendar"
@@ -129,7 +153,3 @@ struct ContentView: View {
         .tint(.green)
     }
 }
-
-
-
-
