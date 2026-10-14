@@ -1,0 +1,129 @@
+
+[
+  {
+    "id": "recipe001",
+    "name": "Chicken and Vegetable Rice",
+    "description": "A hearty rice dish with chicken and fresh vegetables.",
+    "preparationMinutes": 15,
+    "cookingMinutes": 25,
+    "servingCount": 2,
+    "symbol": "fork.knife",
+    "ingredients": [
+      {"name": "Chicken", "quantity": 200, "unit": "g"},
+      {"name": "Rice", "quantity": 150, "unit": "g"},
+      {"name": "Tomatoes", "quantity": 2, "unit": "pcs"},
+      {"name": "Carrots", "quantity": 1, "unit": "pcs"}
+    ],
+    "steps": [
+      "Wash and prepare the vegetables.",
+      "Cook the rice according to its package instructions.",
+      "Cook the chicken thoroughly in a pan.",
+      "Add the chopped vegetables and cook until tender.",
+      "Combine with the rice and serve."
+    ]
+  },
+  {
+    "id": "recipe002",
+    "name": "Tomato Egg Fried Rice",
+    "description": "A quick rice meal with eggs and tomatoes.",
+    "preparationMinutes": 10,
+    "cookingMinutes": 15,
+    "servingCount": 2,
+    "symbol": "frying.pan",
+    "ingredients": [
+      {"name": "Rice", "quantity": 150, "unit": "g"},
+      {"name": "Eggs", "quantity": 2, "unit": "pcs"},
+      {"name": "Tomatoes", "quantity": 2, "unit": "pcs"}
+    ],
+    "steps": [
+      "Cook the rice and allow it to cool.",
+      "Wash and chop the tomatoes.",
+      "Scramble the eggs in a heated pan.",
+      "Add the tomatoes and cook until softened.",
+      "Add the rice, heat thoroughly and serve."
+    ]
+  },
+  {
+    "id": "recipe003",
+    "name": "Carrot and Egg Omelette",
+    "description": "A simple omelette with vegetables.",
+    "preparationMinutes": 10,
+    "cookingMinutes": 10,
+    "servingCount": 2,
+    "symbol": "fork.knife",
+    "ingredients": [
+      {"name": "Eggs", "quantity": 3, "unit": "pcs"},
+      {"name": "Carrots", "quantity": 1, "unit": "pcs"},
+      {"name": "Tomatoes", "quantity": 1, "unit": "pcs"}
+    ],
+    "steps": [
+      "Wash and finely grate the carrot.",
+      "Chop the tomato.",
+      "Beat the eggs in a bowl.",
+      "Mix in the vegetables.",
+      "Pour into a heated pan and cook until the eggs are fully set."
+    ]
+  },
+  {
+    "id": "recipe004",
+    "name": "Creamy Carrot Soup",
+    "description": "A comforting carrot soup made with milk.",
+    "preparationMinutes": 15,
+    "cookingMinutes": 20,
+    "servingCount": 2,
+    "symbol": "cup.and.saucer.fill",
+    "ingredients": [
+      {"name": "Carrots", "quantity": 3, "unit": "pcs"},
+      {"name": "Milk", "quantity": 250, "unit": "ml"}
+    ],
+    "steps": [
+      "Wash, peel and chop the carrots.",
+      "Simmer the carrots in water until tender.",
+      "Blend with a little cooking liquid until smooth.",
+      "Add the milk and heat gently.",
+      "Serve warm with seasoning to taste."
+    ]
+  },
+  {
+    "id": "recipe005",
+    "name": "Chicken Tomato Skillet",
+    "description": "A flavorful chicken dish with tomatoes and carrots.",
+    "preparationMinutes": 15,
+    "cookingMinutes": 20,
+    "servingCount": 2,
+    "symbol": "flame.fill",
+    "ingredients": [
+      {"name": "Chicken", "quantity": 250, "unit": "g"},
+      {"name": "Tomatoes", "quantity": 3, "unit": "pcs"},
+      {"name": "Carrots", "quantity": 2, "unit": "pcs"}
+    ],
+    "steps": [
+      "Cut the chicken into evenly sized pieces.",
+      "Wash and chop the tomatoes and carrots.",
+      "Cook the chicken in a heated skillet.",
+      "Add the vegetables and continue cooking until tender.",
+      "Ensure the chicken is thoroughly cooked before serving."
+    ]
+  },
+  {
+    "id": "recipe006",
+    "name": "Tomato Rice Bowl",
+    "description": "An easy vegetable rice bowl for busy days.",
+    "preparationMinutes": 10,
+    "cookingMinutes": 20,
+    "servingCount": 2,
+    "symbol": "fork.knife",
+    "ingredients": [
+      {"name": "Rice", "quantity": 120, "unit": "g"},
+      {"name": "Tomatoes", "quantity": 2, "unit": "pcs"},
+      {"name": "Carrots", "quantity": 1, "unit": "pcs"}
+    ],
+    "steps": [
+      "Cook the rice according to its package instructions.",
+      "Wash and chop the tomatoes and carrots.",
+      "Cook the carrots until tender.",
+      "Add the tomatoes and cook briefly.",
+      "Combine the vegetables with the cooked rice and serve."
+    ]
+  }
+]
